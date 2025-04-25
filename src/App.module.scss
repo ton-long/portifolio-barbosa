@@ -1,0 +1,20 @@
+:root {
+  --bg-desktop: #008080;
+  --blue-default: #010080;
+  --gray-secondary: #808080;
+  --gray-default: #c0c0c0;
+  --black: #000;
+  --white: #fff;
+  --red: #ff0000;
+  --blue: #0000ff;
+  --default-font: "Arial", sans-serif;
+  --cmd-font: "Fixedsys", monospace;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: var(--default-font);
+  background-color: var(--bg-desktop);
+  overflow: hidden;
+}

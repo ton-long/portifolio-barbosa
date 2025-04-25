@@ -1,0 +1,123 @@
+.minesweeper {
+  width: 14.37rem;
+  height: 15.75rem;
+  background: var(--gray-default);
+  padding: 0.13rem;
+  border: 0.13rem outset;
+  box-sizing: border-box;
+}
+
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.25rem;
+  padding: 0.25rem;
+  border: 0.13rem inset;
+}
+
+.counter {
+  width: 2.5rem;
+  background: var(--black);
+  color: var(--red);
+  text-align: center;
+  font-family: var(--cmd-font);
+  font-size: 1.13rem;  
+}
+
+.face {
+  background: var(--gray-default);
+  border: 0.13rem outset;
+  padding: 0.13rem;
+}
+
+.face img {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.flagToggle {
+  display: flex;
+  justify-content: center;
+
+  button {
+    font-size: 0.63rem;
+    padding: 0.13rem;
+    border: 0.06rem outset;
+    background: var(--gray-default);
+  }
+}
+
+.board {
+  display: grid;
+  grid-template-rows: repeat(9, 1fr);
+  gap: 0.13rem;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  justify-items: center;
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1.25rem;
+  height: 1.25rem;
+  background: var(--gray-default);
+  border: 0.13rem outset;
+  text-align: center;
+  font-size: 0.88rem;
+  line-height: 1.25rem;
+  user-select: none;
+
+  img {
+    width: 0.88rem;
+    height: 0.88rem;
+  }
+}
+
+.revealed {
+  background: var(--gray-default);
+  border: 0.13rem inset;
+}
+
+.number {
+  font-weight: bold;
+  font-size: 0.88rem;
+  line-height: 0.88rem;
+}
+
+.n1 {
+  color: blue;
+}
+
+.n2 {
+  color: green;
+}
+
+.n3 {
+  color: red;
+}
+
+.n4 {
+  color: navy;
+}
+
+.n5 {
+  color: brown;
+}
+
+.n6 {
+  color: teal;
+}
+
+.n7 {
+  color: black;
+}
+
+.n8 {
+  color: gray;
+}

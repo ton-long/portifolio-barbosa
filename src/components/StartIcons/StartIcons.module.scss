@@ -1,0 +1,42 @@
+.startMenuWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.verticalText {
+  display: flex;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: var(--gray-default);
+  background-color: var(--gray-secondary);
+  user-select: none;
+  padding-top: 1rem;
+}
+
+.startList {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 5rem;
+}
+
+.startItenList {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.6rem;
+  padding-right: 1rem;
+  font-size: 1rem;
+
+  &:hover {
+    background-color: var(--blue-default);
+    color: var(--white);
+  }
+}
+
+.startIconImg {
+  width: 2rem;
+  height: 2rem;
+  image-rendering: pixelated;
+}

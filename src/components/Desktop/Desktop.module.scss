@@ -1,0 +1,16 @@
+.desktopIconList {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.desktopIconButton {  
+  margin: 0 0 1.5rem 1rem;
+}
+
+.desktopIconImg {
+  width: 3rem;
+  height: 3rem;
+  image-rendering: pixelated;
+}

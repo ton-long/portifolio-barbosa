@@ -1,0 +1,18 @@
+.taskBar {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 0.2rem;
+  background-color: var(--gray-default);
+  border-top-style: outset;
+  z-index: 999;
+}
+
+.leftSection {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  gap: 0.25rem;
+}

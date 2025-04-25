@@ -1,0 +1,74 @@
+.calculator {
+  height: 15.81rem;
+  width: 18.75rem;
+  display: inline-block;
+  padding: 0.38rem;
+  border: 0.13rem solid var(--gray-default);
+  box-shadow: inset -0.13rem -0.13rem var(--gray-secondary),
+    inset 0.13rem 0.13rem var(--white);
+}
+
+.displayWrapper {
+  position: relative;
+  margin-bottom: 0.38rem;
+}
+
+.memoryIndicator {
+  position: absolute;
+  left: 0.38rem;
+  top: 0.25rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: var(--black);
+  z-index: 1var (--white);
+}
+
+.display {
+  width: 100%;
+  height: 1.5rem;
+  font-size: 1rem;
+  text-align: right;
+  padding: 0.13rem 0.25rem 0.13rem 1.25rem;
+  border: 0.13rem inset var(--white);
+  background: var(--white);
+  box-sizing: border-box;
+  font-family: "Courier New", sans-serif;
+}
+
+.buttonContainer {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 0.25rem;
+}
+
+.buttonsCalculator {
+  flex: 1;
+  height: 1.75rem;
+  margin-right: 0.25rem;
+  font-size: 0.88rem;
+  background: var(--gray-default);
+  border: 0.13rem solid var(--gray-default);
+  box-shadow: inset -0.06rem -0.06rem var(--black),
+    inset 0.06rem 0.06rem var(--white);
+  cursor: pointer;
+
+  &:active {
+    box-shadow: inset 0.06rem 0.06rem var(--gray-secondary),
+      inset -0.06rem -0.06rem var(--white);
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.memory {
+  color: var(--red);
+}
+
+.operator {
+  color: var(--blue);
+}
