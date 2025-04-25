@@ -25,7 +25,7 @@ export const minimizedWindowsState = atom<string[]>({
 export const windowInstanceState = atomFamily<WindowInstanceState, string>({
   key: "windowInstanceState",
   default: () => ({
-    position: { x: window.innerWidth <= 768 ? 0 : 100, y: 50 },
+    position: { x: window.innerWidth <= 768 ? 0 : 100, y: 60 },
     size: { width: 700, height: 650 },
     isMaximized: false,
   }),
