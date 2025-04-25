@@ -26,7 +26,7 @@ export const windowInstanceState = atomFamily<WindowInstanceState, string>({
   key: "windowInstanceState",
   default: () => ({
     position: { x: window.innerWidth <= 768 ? 0 : 100, y: 60 },
-    size: { width: 700, height: 650 },
+    size: { width: 700, height: 680 },
     isMaximized: false,
   }),
 });
