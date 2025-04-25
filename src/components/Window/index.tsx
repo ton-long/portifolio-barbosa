@@ -86,7 +86,7 @@ const Window = ({
       maxHeight={maxSize.height}
       bounds="window"
       enableResizing={!notMaximize && !isMaximized}
-      disableDragging={isMaximized}
+      disableDragging={window.innerWidth <= 1024 || isMaximized}
       dragHandleClassName={styles.titleBar}
       className={`${styles.window} ${isActive ? styles.active : ""}`}
       style={{ zIndex: isActive ? 10 : 1 }}

@@ -1,6 +1,6 @@
 import { atom, atomFamily } from "recoil";
 import { GameState, WindowData, WindowInstanceState } from "../interfaces";
-import smileyFace from '../assets/images/minesweeper/smile.png'
+import smileyFace from "../assets/images/minesweeper/smile.png";
 
 export const timeState = atom<string>({
   key: "timeState",
@@ -26,7 +26,7 @@ export const windowInstanceState = atomFamily<WindowInstanceState, string>({
   key: "windowInstanceState",
   default: () => ({
     position: { x: window.innerWidth <= 768 ? 0 : 100, y: 90 },
-    size: { width: 700, height: 600 },
+    size: { width: 700, height: 650 },
     isMaximized: false,
   }),
 });
