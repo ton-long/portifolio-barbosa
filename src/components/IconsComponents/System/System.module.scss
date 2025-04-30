@@ -8,7 +8,13 @@
   font-family: var(--cmd-font);
 }
 
-.pSystem{
+.pSystem {
   margin-top: 5rem;
   text-align: right;
+}
+
+@media (max-width: 47rem) {
+  .mainSystem {
+    font-size: 0.8rem;
+  }
 }
